@@ -1,0 +1,84 @@
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-collapse: collapse;
+
+  text-align: center;  
+  font-size: 24px;
+  color: #394E63;
+}
+
+table td {
+  padding: 15px 25px;
+  background: #e7e7e7;
+}
+
+thead td {
+  font-weight: bold;
+  color: #FCF8F9;
+}
+
+thead span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+
+  font-size: 40px;
+}
+
+thead td:first-child {
+  border-top-left-radius: 20px;
+  background: #7887ab;
+}
+
+thead td:nth-child(2) {
+  background: #4f628e;
+}
+
+thead td:nth-child(3) {
+  background: #2e4172;
+}
+
+thead td:nth-child(4) {
+  background: #162955;
+}
+
+thead td:last-child {
+  border-top-right-radius: 20px;
+  background: #061539;
+}
+
+table tr:not(thead tr) > td:first-child {
+  text-align: left;
+}
+
+table tr:not(thead tr):nth-child(odd) > td:nth-child(odd) {
+ background: #dbdbdb;
+}
+
+table tr:not(thead tr):nth-child(even) > td:nth-child(even) {
+  background: #f3f3f3;
+}
+
+tfoot td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+tfoot td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+tfoot a {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #B3B3B3;
+  background: #D3D3D3;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #394E63;
+}
